@@ -1,0 +1,81 @@
+#CLASE 1
+a<-5
+b<-4
+c=a+b
+d="Hola"
+e=a+d
+f="2"
+g=a+f
+class(a)
+class(b)
+class(d)
+k=TRUE
+class(k)
+h=34.234
+class(h)
+is.numeric(a)
+is.numeric(d)
+is.character(d)
+!is.logical(k)
+l=as.numeric(f)
+class(l)
+class(as.numeric(d))
+x=10
+y=2
+x+y
+x-y
+x*y
+x/y
+x^y
+x%%y
+s=TRUE
+m=TRUE
+s==m
+s!=m
+s&m
+s|m
+pi
+y= abs(3)
+y = abs(-3)
+z = 345.8999
+q = round(z,1)
+
+
+
+#CLASE 2
+nombre = "Lucia"
+nchar(nombre)
+paste("Hola","mi gente de mi","Clase", sep="-")
+var1="Hola"
+var2="mi gente de mi"
+var3="clase"
+var_sep="@"
+paste(var1,var2,var3,var_sep)
+var5="Hola"
+var_result=substr(var5,1,2)
+nombre="Marisa"
+paste(tolower(nombre))
+paste(toupper(nombre))
+valor1=TRUE
+valor2=TRUE
+valor3!=valor1
+valor4=valor1 & valor2
+valor5= valor1&valor3
+valor6=!valor1&valor2
+valor7=valor1|valor1
+valor8=valor1|!valor2
+valor9=valor1|!valor2|!valor1
+paste("Hola",5)
+print("Hola"+"5")
+
+
+edad=20
+estatura=1.65
+peso=60
+sexo="mujer"
+imc=peso/(estatura)^
+unidades="KG/M^2"
+paste("Índice de masa corporal:",round(imc,2),"KG/M^2")
+obesa<-sexo=="mujer"&!edad>60 & imc>=30
+obesa
+imc
